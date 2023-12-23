@@ -13,7 +13,7 @@
                 <include>.gitignore</include>
             </includes>
         </fileSet>
-        <fileSet>
+        <fileSet filtered="true" packaged="true">
             <directory>src/test/java</directory>
         </fileSet>
     </fileSets>
