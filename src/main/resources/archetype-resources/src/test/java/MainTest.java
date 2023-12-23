@@ -1,16 +1,12 @@
-package $org.example;
+package $package;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
-public class MainTest extends TestCase {
-    public MainTest(String testName) {
-        super(testName);
-    }
-    public static Test suite() {
-        return new TestSuite(MainTest.class);
-    }
-    public void testApp() {
-        assertTrue(true);
+import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class MainTest {
+    @Test
+    void test() {
+        assertThat(true).isTrue();
     }
 }

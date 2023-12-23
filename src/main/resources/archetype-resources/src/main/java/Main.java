@@ -1,6 +1,7 @@
-package $org.example;
-public class App {
-    public static void main( String[] args ) {
-        System.out.println( "Hello World!" );
+package $package;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
     }
 }
